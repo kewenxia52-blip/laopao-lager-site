@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Sitemap: https://2buy.biz/sitemap.xml
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
