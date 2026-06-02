@@ -113,6 +113,7 @@
     <div class="nav-links">
       <a href="/story/">品牌故事</a>
       <a href="/products/">产品</a>
+      <a href="/partner/">渠道招商</a>
       <a href="/blog/">精酿说</a>
       <a href="#contact" class="nav-cta">合作咨询</a>
     </div>
@@ -291,14 +292,15 @@
         <h4>品牌</h4>
         <a href="/story/">品牌故事</a>
         <a href="/products/">产品系列</a>
+        <a href="/partner/">渠道招商</a>
         <a href="/blog/">精酿说</a>
       </div>
       <div class="footer-col">
         <h4>产品</h4>
-        <a href="/products/#lager">老炮拉格</a>
-        <a href="/products/#yegangshao">夜岗哨原浆</a>
-        <a href="/products/#baipi">荣归白啤</a>
-        <a href="/products/#fruit">果啤系列</a>
+        <a href="/products/shuanghua/">老炮拉格</a>
+        <a href="/products/yegangshao/">夜岗哨原浆</a>
+        <a href="/products/ronggui/">荣归白啤</a>
+        <a href="/products/fruit/">果啤系列</a>
       </div>
       <div class="footer-col">
         <h4>联系</h4>
@@ -307,38 +309,25 @@
         <p>小程序「老炮拉格」</p>
       </div>
     </div>
+    <div class="footer-license">
+      <div class="license-images">
+        <a href="/images/license-business.jpg" target="_blank" class="license-item">
+          <img src="/images/license-business.jpg" alt="营业执照" loading="lazy">
+          <span>营业执照</span>
+        </a>
+        <a href="/images/license-permit.jpg" target="_blank" class="license-item">
+          <img src="/images/license-permit.jpg" alt="食品经营许可证" loading="lazy">
+          <span>食品经营许可证</span>
+        </a>
+      </div>
+    </div>
     <div class="copyright">
       © 2026 京鲜啤酒 · 老炮拉格 · 波斯特 PROST
     </div>
   </footer>
 
   <!-- Scroll reveal + Nav shadow -->
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const reveals = document.querySelectorAll('.reveal');
-    const navbar = document.getElementById('navbar');
-    
-    // Intersection Observer for scroll reveal
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-    
-    reveals.forEach(el => observer.observe(el));
-    
-    // Nav shadow on scroll
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > 80) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-  });
-  </script>
+  <script src="/js/main.js"></script>
 
 </body>
 </html>

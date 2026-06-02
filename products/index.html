@@ -18,6 +18,7 @@
   <div class="nav-links">
     <a href="/story/">品牌故事</a>
     <a href="/products/" class="active">产品</a>
+    <a href="/partner/">渠道招商</a>
     <a href="/blog/">精酿说</a>
     <a href="/#contact" class="nav-cta">合作咨询</a>
   </div>
@@ -38,7 +39,7 @@
   <h2 style="color:var(--mil-green);border-left:4px solid var(--gold);padding-left:16px;margin-bottom:24px;">系列一 · 军旅情怀 · 老炮系列</h2>
   <div class="product-grid">
     <div class="product-card">
-      <h3>老炮拉格 · 双花拉格</h3>
+      <h3><a href="/products/shuanghua/" style="color:var(--mil-green);text-decoration:none;">老炮拉格 · 双花拉格</a></h3>
       <p class="tagline">主力走量款 · ¥68/箱</p>
       <ul>
         <li><strong>类型：</strong>13°P 双花拉格</li>
@@ -51,7 +52,7 @@
       </ul>
     </div>
     <div class="product-card">
-      <h3>夜岗哨原浆</h3>
+      <h3><a href="/products/yegangshao/" style="color:var(--mil-green);text-decoration:none;">夜岗哨原浆</a></h3>
       <p class="tagline">精酿鲜啤 · ¥68/箱</p>
       <ul>
         <li><strong>类型：</strong>11°P 原浆鲜啤</li>
@@ -64,7 +65,7 @@
       </ul>
     </div>
     <div class="product-card">
-      <h3>荣归白啤</h3>
+      <h3><a href="/products/ronggui/" style="color:var(--mil-green);text-decoration:none;">荣归白啤</a></h3>
       <p class="tagline">小麦精酿 · ¥68/箱</p>
       <ul>
         <li><strong>类型：</strong>12°P 德式白啤</li>
@@ -172,14 +173,15 @@
       <h4>品牌</h4>
       <a href="/story/">品牌故事</a>
       <a href="/products/">产品系列</a>
+      <a href="/partner/">渠道招商</a>
       <a href="/blog/">精酿说</a>
     </div>
     <div class="footer-col">
       <h4>产品</h4>
-      <a href="/products/#lager">老炮拉格</a>
-      <a href="/products/#yegangshao">夜岗哨原浆</a>
-      <a href="/products/#baipi">荣归白啤</a>
-      <a href="/products/#fruit">果啤系列</a>
+      <a href="/products/shuanghua/">老炮拉格</a>
+      <a href="/products/yegangshao/">夜岗哨原浆</a>
+      <a href="/products/ronggui/">荣归白啤</a>
+      <a href="/products/fruit/">果啤系列</a>
     </div>
     <div class="footer-col">
       <h4>联系</h4>
@@ -188,20 +190,24 @@
       <p>小程序「老炮拉格」</p>
     </div>
   </div>
+  <div class="footer-license">
+    <div class="license-images">
+      <a href="/images/license-business.jpg" target="_blank" class="license-item">
+        <img src="/images/license-business.jpg" alt="营业执照" loading="lazy">
+        <span>营业执照</span>
+      </a>
+      <a href="/images/license-permit.jpg" target="_blank" class="license-item">
+        <img src="/images/license-permit.jpg" alt="食品经营许可证" loading="lazy">
+        <span>食品经营许可证</span>
+      </a>
+    </div>
+  </div>
   <div class="copyright">
     © 2026 京鲜啤酒 · 老炮拉格 · 波斯特 PROST
   </div>
 </footer>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const navbar = document.getElementById('navbar');
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 80) navbar.classList.add('scrolled');
-    else navbar.classList.remove('scrolled');
-  });
-});
-</script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>
