@@ -440,6 +440,26 @@ body {
   letter-spacing: 0.3px;
 }
 
+/* ===== Infographic Hero ===== */
+.infographic-hero {
+  max-width: 1000px;
+  margin: 0 auto 48px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.infographic-hero:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.15);
+}
+.infographic-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+}
+
 /* ===== Knowledge / Blog ===== */
 .knowledge-section {
   max-width: 1200px;
